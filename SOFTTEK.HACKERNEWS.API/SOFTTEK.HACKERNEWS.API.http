@@ -1,0 +1,6 @@
+@SOFTTEK.HACKERNEWS.API_HostAddress = http://localhost:5249
+
+GET {{SOFTTEK.HACKERNEWS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

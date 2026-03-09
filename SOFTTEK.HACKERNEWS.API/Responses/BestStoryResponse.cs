@@ -1,0 +1,11 @@
+﻿namespace SOFTTEK.HACKERNEWS.API.Responses
+{
+    public sealed record BestStoryResponse(
+    string Title,
+    string Uri,
+    string PostedBy,
+    DateTimeOffset Time,
+    int Score,
+    int CommentCount);
+
+}
